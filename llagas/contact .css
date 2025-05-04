@@ -1,0 +1,14 @@
+body {
+  background-color: mistyrose;
+}
+a {color: black;
+  font-family: alice,serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+footer {color: black;
+  font-family: alice,serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+

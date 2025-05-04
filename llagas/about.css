@@ -1,0 +1,55 @@
+body {
+  background-color: mistyrose;
+}
+a {color: black;
+  font-family: alice,serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h1{color: black;
+  font-family: alice,serif;
+  font-size: 62px;
+  font-weight: bold;
+}
+h2{color: black;
+  font-family: alice,serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+h3{color: black;
+  font-family: alice,serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+h4{color: black;
+  font-family: alice,serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+h5{color: black;
+  font-family: alice,serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+h6{color: black;
+  font-family: alice,serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+p {color: black;
+  font-family: alice,serif;
+  font-size: 36px;
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+ footer {color: black;
+  font-family: alice,serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comprehensive Enrollment Form</title>
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+    <form action="/submit-enrollment" method="post">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" required><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="nationality">Nationality:</label><br>
+            <input type="text" id="nationality" name="nationality"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Contact Information Section -->
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="emergency-contact">Emergency Contact Number:</label><br>
+            <input type="tel" id="emergency-contact" name="emergency-contact" required><br><br>
+
+            <label for="address">Residential Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Academic Details Section -->
+        <fieldset>
+            <legend>Academic Details</legend>
+
+            <label for="high-school">High School Name:</label><br>
+            <input type="text" id="high-school" name="high-school"><br><br>
+
+            <label for="graduation-year">Year of Graduation:</label><br>
+            <input type="number" id="graduation-year" name="graduation-year" min="1900" max="2024"><br><br>
+
+            <label for="previous-degree">Previous Degree (if any):</label><br>
+            <input type="text" id="previous-degree" name="previous-degree"><br><br>
+
+            <label for="gpa">GPA/Percentage:</label><br>
+            <input type="text" id="gpa" name="gpa"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Course and Preferences Section -->
+        <fieldset>
+            <legend>Course and Preferences</legend>
+
+            <label for="course">Select a Course:</label><br>
+            <select id="course" name="course" required>
+                <option value="">--Choose a Course--</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="business-administration">Business Administration</option>
+                <option value="engineering">Engineering</option>
+                <option value="medicine">Medicine</option>
+                <option value="arts">Arts</option>
+                <option value="law">Law</option>
+            </select><br><br>
+
+            <label for="study-mode">Mode of Study:</label><br>
+            <input type="radio" id="full-time" name="study-mode" value="full-time">
+            <label for="full-time">Full-Time</label><br>
+            <input type="radio" id="part-time" name="study-mode" value="part-time">
+            <label for="part-time">Part-Time</label><br><br>
+
+            <label for="preferred-campus">Preferred Campus:</label><br>
+            <input type="text" id="preferred-campus" name="preferred-campus"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Other Details Section -->
+        <fieldset>
+            <legend>Other Details</legend>
+
+            <label for="languages">Languages Known:</label><br>
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="spanish" name="languages" value="spanish">
+            <label for="spanish">Spanish</label><br>
+            <input type="checkbox" id="french" name="languages" value="french">
+            <label for="french">French</label><br>
+            <input type="checkbox" id="other-lang" name="languages" value="other">
+            <label for="other-lang">Other</label><br><br>
+
+            <label for="additional-info">Additional Information:</label><br>
+            <textarea id="additional-info" name="additional-info" rows="4" cols="40" placeholder="Mention any other relevant details"></textarea><br><br>
+        </fieldset>
+        <br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit Enrollment">
+    </form>
+</body>
+</html>

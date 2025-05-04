@@ -1,0 +1,28 @@
+body {
+  background-color: mistyrose;
+}
+a {color: black;
+  font-family: alice,serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+div { 
+  background-color: lightpink;
+  border: 1px;
+  margin: 20px;
+  width: 25%;
+  color: black;
+  font-family: alice,serif;
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+  
+}
+
+
+footer {color: black;
+  font-family: alice,serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
